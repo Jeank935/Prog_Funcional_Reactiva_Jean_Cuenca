@@ -1,0 +1,32 @@
+
+def greaterThan(a: Int, b: Int): Int = {
+     if (a > b) {
+    a
+  } else {
+    b
+  }
+}
+def radianesAGrados(rad: Double): Double= {
+    val grad = rad *(180/math.Pi)
+    grad
+}
+def fahrenheitACelsius(far: Double): Double={
+    val cels:Double = (far -32)* 5/9
+    cels
+}
+def eliminarVocalesAbiertas(txt:String): String={
+    val txtnuevo:String = txt.toLowerCase()
+    txtnuevo.replace("a","").replace("e","").replace("o","")
+    txtnuevo
+}
+def calcularAngulo(distancia: Int, velocidadInicial: Double):Double={
+    val g:Double= 9.8
+    val argumento: Double=(distancia*g)/(velocidadInicial*velocidadInicial)
+    val angulo:Double= 0.5* math.asin(argumento)
+    angulo
+
+def f1(n: Int) = (1 to n).sum
+def segundo(n:Int)=(1 to n).product*math.pow(-1,n)
+def tercero(n:Int)=(1 to n).sum*(1/(2*n))
+def cuarto(n:Int)=(1 to 1/n).sum
+def quinto(n:Int)=(1 to n).sum*2
