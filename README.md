@@ -13,8 +13,14 @@ val respuestaSinNombre= fSinNombre(5)
 ```
 ## Comparacion funciones con nombre a sin nombre
 ### funcion .sum
-``` scala
+```scala
 def fSum(n: Int):Int = (1 to n).sum
 val fSumSinNombre= (n: Int) => (1 to n).sum
 ```
-### f
+### funcion calcular area de una figura
+```scala
+def calcularArea(base: Double, altura: Double): Double = {
+  base * altura
+val calcularAreaSinNombre = (base: Double, altura: Double) => base * altura
+}```
+
