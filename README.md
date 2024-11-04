@@ -11,3 +11,10 @@ FUNCION CON NOMBRE
 val fSinNombre= (n: Int) => (1 to n).product
 val respuestaSinNombre= fSinNombre(5)
 ```
+## Comparacion funciones con nombre a sin nombre
+### funcion .sum
+``` scala
+def fSum(n: Int):Int = (1 to n).sum
+val fSumSinNombre= (n: Int) => (1 to n).sum
+```
+### f
