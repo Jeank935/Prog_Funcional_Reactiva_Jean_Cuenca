@@ -3,5 +3,5 @@
 FUNCION CON NOMBRE
 ```scala
 def f1(n: Int) = (1 to n).product
-val rta=f1(3)
+val respuestaa=f1(5)
 ```
