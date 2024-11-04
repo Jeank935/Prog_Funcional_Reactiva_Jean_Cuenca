@@ -2,6 +2,6 @@
 ### TAREA DE CONSULTA
 FUNCION CON NOMBRE
 ```scala
-def f1(n: Int) = (1 to n).product
-val respuestaa=f1(5)
+def fNombre(n: Int) = (1 to n).product
+val respuestadoNombre=f1(5)
 ```
