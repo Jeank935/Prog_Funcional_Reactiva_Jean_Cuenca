@@ -21,6 +21,13 @@ val fSumSinNombre= (n: Int) => (1 to n).sum
 ```scala
 def calcularArea(base: Double, altura: Double): Double = {
   base * altura
+}
 val calcularAreaSinNombre = (base: Double, altura: Double) => base * altura
-}```
+```
+### Listas y filtrado
+```scala
+val lista = (1 to 10)
+lista.filter( (i:Int)=> i%2==0) // especificando el tipo
+lista.filter(_%2==0) // Meta Caracter
+```
 
