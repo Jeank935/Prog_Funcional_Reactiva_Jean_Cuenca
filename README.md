@@ -9,4 +9,5 @@ FUNCION CON NOMBRE
 
 ```scala
 val fSinNombre= (n: Int) => (1 to n).product
+val respuestaSinNombre
 ```
